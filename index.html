@@ -288,7 +288,7 @@
             <p><strong>Inhalt:</strong> <span class="fill">Selfcare Gutschein</span></p>
             <p><strong>Einlösbar bis:</strong> <span class="fill">24.12.2026</span></p>
             <p><strong>Von:</strong> <span class="fill">Yannik</span> &nbsp;&nbsp; <strong>Für:</strong> <span class="fill">Melanie Weber-Haupenthal</span></p>
-            <p><strong>Hinweis:</strong> <span class="fill">Dein echtes Geschenk liegt: Unterm Weihnachtsbaum</span></p>
+            <p><strong>Hinweis:</strong> <span class="fill">Dein echtes Geschenk befindet sich in der Welt der Hexen und Zauberer</span></p>
             <div class="stamp">✨ Nur für dich ✨</div>
           </div>
         </div>
@@ -342,7 +342,7 @@
 
     document.getElementById("btn1").addEventListener("click", () => {
       if(norm(a1.value) === norm(LOESUNG1)){
-        ok(msg1, "Richtig! 🎉 Weiter zu Level 2…");
+        ok(msg1, "Richtig! 🎉 Weiter zu Rätsel 2…");
         setTimeout(()=>show(level2), 650);
       } else {
         bad(msg1, "Noch nicht 😊 Tipp: süß.");
@@ -351,7 +351,7 @@
 
     document.getElementById("btn2").addEventListener("click", () => {
       if(norm(a2.value) === norm(LOESUNG2)){
-        ok(msg2, "Sehr gut! ✨ Weiter zu Level 3…");
+        ok(msg2, "Sehr gut! ✨ Weiter zu Rätsel 3…");
         setTimeout(()=>show(level3), 650);
       } else {
         bad(msg2, "Fast 😄 Tipp: weihnachtliches Licht.");
@@ -459,4 +459,5 @@
     tick();
   </script>
 </body>
+
 </html>
