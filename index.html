@@ -342,7 +342,7 @@
 
     document.getElementById("btn1").addEventListener("click", () => {
       if(norm(a1.value) === norm(LOESUNG1)){
-        ok(msg1, "Richtig! 🎉 Weiter zu Rätsel 2…");
+        ok(msg1, "Richtig! 🎉 Weiter zu Level 2…");
         setTimeout(()=>show(level2), 650);
       } else {
         bad(msg1, "Noch nicht 😊 Tipp: süß.");
@@ -351,7 +351,7 @@
 
     document.getElementById("btn2").addEventListener("click", () => {
       if(norm(a2.value) === norm(LOESUNG2)){
-        ok(msg2, "Sehr gut! ✨ Weiter zu Rätsel 3…");
+        ok(msg2, "Sehr gut! ✨ Weiter zu Level 3…");
         setTimeout(()=>show(level3), 650);
       } else {
         bad(msg2, "Fast 😄 Tipp: weihnachtliches Licht.");
@@ -459,5 +459,4 @@
     tick();
   </script>
 </body>
-
 </html>
